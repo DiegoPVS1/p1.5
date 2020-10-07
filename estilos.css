@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background:linear-gradient(30deg, rgb(19, 158, 177),rgb(39, 161, 218), royalblue, rgb(46, 34, 155), rgb(118, 20, 156));
+}
+
+.fondo{
+    width: 400px;
+    background-color: FF33B2;
+    padding: 20px;
+    margin: auto;
+}

@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>FORMULARIO BASICO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(241, 230, 76);">FORMULARIO WEB</h1>        
+    <hr>
+    <form action="#" class="Fondo">
+        <fieldset>
+            <legend class="sub">Entrada de usuario</legend>
+            <div class="nombre">
+                <label for="usuario">Nombre(s):</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+                
+            </div><br>
+            <div class="nombre">
+                <label for="usuario">Apellido Paterno:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="usuario">Apellido Materno:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30">
+                
+            </div><br>
+            <div class="nombre">
+                <label for="correo">Direccion de correo:</label>
+                <input id="correo" type="text" name="email">
+            </div><br>
+
+            <div class="nombre">
+                <label for="telefono">Numero de telefono:</label>
+                <input id="Telefono" type="text" name="tel">
+            </div><br>
+            
+            <div class="seleccion">
+                <label for="especialidad">Especialidad:</label>
+                <select name="especialidad">
+                    <option value="PROG">Programacion</option>
+                    <option value="CONTA">Contabilidad</option>
+                    <option value="LOGI">Logistica</option>
+                    <option value="CONS">Construccion</option>
+                    <option value="ALIM">Produccion industrial de alimentos</option>
+                    <option value="ELEC">Electronica</option>
+                    <option value="" selected="selected">Selecciona tu especialidad</option>
+                </select>
+                
+            </div><br>
+            <div class="seleccion">
+                <label for="semestre">Semestre:</label>
+                <select name="semestre">
+                    <option value="1">Primer semestre</option>
+                    <option value="3">Tercer semestre</option>
+                    <option value="5">Quinto semestre</option>
+                    <option value="" selected="selected">Selecciona tu semestre</option>
+                </select>
+            </div><br>
+
+        
+
+            <div class="Extra">
+                <label for="Cursos">Cursos Extra Escolares:</label>
+                <select name="Cursos">
+                    <option value="Dan">Danza</option>
+                    <option value="bas">Basquetball</option>
+                    <option value="Fut">Futbol</option>
+                    <option value="Vol">Volleyball</option>
+                    <option value="Ban">Banda de guerra</option>
+                    <option value="Dib">Dibujo</option>
+                    <option value="Procc">Proteccion Civil</option>
+                    <option value="" selected="selected">Elije tu curso Extra</option>
+                    </select>
+                    
+
+                    <div class="caja">Sexo: <br>
+                        <input type="radio" id="masculino" name="sexo" value="masculino">
+                        <label for="masculino">Hombre</label><br>
+                        <input type="radio" id="femenino" name="sexo" value="femenino">
+                        <label for="femenino">Mujer</label><br>
+                    </div><br>
+                
+
+                    <div class="terminos">
+                        <input type="checkbox" id="terminos y condiciones" name="condiciones" value="terminos y condiciones">
+                        <label for="terminos y condiciones">Estoy de acuerdo con <a href="#"> Terminos y condiciones </a></label>
+                    </div><br>
+            <hr>
+                <div class="envio"><br>
+                <input class="buttoms" type="submit" name="submit" value="Enviar">
+                <input class="buttoms" type="reset" name="reset" value="Limpiar Formulario">
+            </div><br>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
